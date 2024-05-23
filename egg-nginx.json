@@ -66,7 +66,7 @@
             "name": "Memory_limit",
             "description": "Change the memory_limit value from the php.ini file",
             "env_variable": "MEMORY_LIMIT",
-            "default_value": "128M",
+            "default_value": "256M",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:20",
